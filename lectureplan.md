@@ -2,8 +2,6 @@
 
 This plan is tentative and may be updated.
 
-## Intro and attacker modus
-
 ### 03/09-2018
 * 1515-1600: Introduction and course overview (TL)
   * [What Is Security Engineering?, R. Anderson](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c01.pdf)
@@ -20,8 +18,6 @@ This plan is tentative and may be updated.
   * [Passive Reconnaissance, M. Czumak](https://www.securitysift.com/passive-reconnaissance/)
   * [Port scanning techniques, K. Katterjohn](https://www.exploit-db.com/docs/english/13107-port-scanning-techniques.pdf)
 
-## Software and web app security
-
 ### 10/09-2018
 * 1515-1600: Vulnerabilities and control hijacking (TL)
   * [Buffer-Overflow Vulnerabilities and Attacks, W. Du (section 1-3)](http://www.cis.syr.edu/~wedu/Teaching/IntrCompSec/LectureNotes_New/Buffer_Overflow.pdf)
@@ -36,41 +32,35 @@ This plan is tentative and may be updated.
 * 1115-1200: Secure web app development in practice (Guest)
   * No material
 
-## System security
-
 ### 17/09-2018
 * 1515-1600: Identity and access management I (CJ)
   * [Access Control, R. Anderson](http://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c04.pdf)
 * 1615-1700: Identity and access management II, biometrics and social engineering (CJ)
 
 ### 19/09-2018
-* 1015-1100: Malware (TL)
-  * [Malware Trends, ICS-CERT](https://ics-cert.us-cert.gov/sites/default/files/documents/NCCIC_ICS-CERT_AAL_Malware_Trends_Paper_S508C.pdf)
-  * [The PlugX malware revisited: introducing "Smoaler", G. Szappanos](https://sophosnews.files.wordpress.com/2013/07/sophosszappanosplugxrevisitedintroducingsmoaler-rev1.pdf)
-* 1115-1200: Case study (Guest)
-  * No material
-
-## Cryptography
+* 1015-1100: Security architecture and the perimeter (CJ)
+* 1115-1200: Cloud security, virtualization, containers, serverless security (CJ)
+  * [Cloud Security Alliance, CSA Guide: Domain 1 Cloud Computing Concepts and Architectures pp.7-26](https://downloads.cloudsecurityalliance.org/assets/research/security-guidance/security-guidance-v4-FINAL.pdf)
 
 ### 24/09-2018
-* 1515-1600: Crypto overview I (TL)
-  * [Cryptography, R. Anderson](http://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c05.pdf)
-* 1615-1700: Crypto overview II (TL)
-  * Same as above
+* 1515-1600: Malware (TL)
+  * [Malware Trends, ICS-CERT](https://ics-cert.us-cert.gov/sites/default/files/documents/NCCIC_ICS-CERT_AAL_Malware_Trends_Paper_S508C.pdf)
+  * [The PlugX malware revisited: introducing "Smoaler", G. Szappanos](https://sophosnews.files.wordpress.com/2013/07/sophosszappanosplugxrevisitedintroducingsmoaler-rev1.pdf)
+* 1615-1700: Case study (Guest)
+  * No material
 
 ### 26/09-2018
-* 1015-1100: Key management (TL)
-  * [Protocols, R. Anderson](http://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c03.pdf)
-* 1115-1200: Crypto protocols (TL)
-  * [Defense Against Network Attacks, R. Anderson ch. 21.4.5](http://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c21.pdf)
-  * [Known Attacks on TLS, RFC7457](https://tools.ietf.org/html/rfc7457)
-
-## Network security
+* 1015-1100: Crypto overview I (TL)
+  * [Cryptography, R. Anderson](http://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c05.pdf)
+* 1115-1200: Crypto overview II (TL)
+  * Same as above
 
 ### 01/10-2018
-* 1515-1600: Security architecture and the perimeter (CJ)
-* 1615-1700: Cloud security, virtualization, containers, serverless security (CJ)
-  * [Cloud Security Alliance, CSA Guide: Domain 1 Cloud Computing Concepts and Architectures pp.7-26](https://downloads.cloudsecurityalliance.org/assets/research/security-guidance/security-guidance-v4-FINAL.pdf)
+* 1515-1600: Key management (TL)
+  * [Protocols, R. Anderson](http://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c03.pdf)
+* 1615-1700: Crypto protocols (TL)
+  * [Defense Against Network Attacks, R. Anderson ch. 21.4.5](http://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c21.pdf)
+  * [Known Attacks on TLS, RFC7457](https://tools.ietf.org/html/rfc7457)
 
 ### 03/10-2018
 * 1015-1100: Denial of service and other attacks (CJ)
@@ -80,28 +70,24 @@ This plan is tentative and may be updated.
   * [Privacy users, R. Anderson pp. 745-747 and 757-759](http://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c23.pdf)
   * [I Didn't Buy it for Myself, Cranor](http://lorrie.cranor.org/pubs/personalization-privacy.pdf)
 
-## Reactive security
-
 ### 08/10-2018
-* 1515-1600: Security management I (CJ)
+* 1515-1600: Incident response and forensics (TL)
+  * [Computer Security Incident Handling Guide, ch. 2-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
+* 1615-1700: Hacking IoT devices (Guest)
+  * [Hack Back! A DIY Guide](https://pastebin.com/0SNSvyjJ)
+
+### 10/10-2018
+* 1015-1100: Security management I (CJ)
   * [Vejledning i it-risikostyring, Digitaliseringsstyrelsen](https://www.digst.dk/~/media/Files/Informationssikkerhed/Informationssikkerhed-efter-ISO27001/Vejledning-it-risikostyring-og-vurdering_februar-2015.pdf)
 * 1115-1200: Security management II (CJ)
   * [Disaster recovery, Digitaliseringsstyrelsen, read the main page and browse some of the documents](http://www.digst.dk/Arkitektur-og-standarder/Videnscenter-for-implementering-af-ISO27001/Vejledninger-om-sikkerhedsarbejdet/Beredskabsplanlaegning)
 
-## Outro
-
-### 10/10-2018
-* 1015-1100: Privacy by design (CJ)
+### 22/10-2018
+* 1515-1600: Privacy by design (CJ)
   * [Databeskyttelse gennem Design, Rådet for Digital Sikkerhed](http://www.digitalsikkerhed.dk/s/RfDS-vejledning-om-DPbD.pdf)
-* 1115-1200: Privacy technology (CJ)
+* 1615-1700: Privacy technology (CJ)
   * [The EU Article 29 Data Protection WP](http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf)
 
-### 22/10-2018
-* 1515-1600: Incident response and forensics (TL)
-  * [Computer Security Incident Handling Guide, ch. 2-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
-* 1615-1700: Recap: Putting it all together (TL)
-  * [Hack Back! A DIY Guide](https://pastebin.com/0SNSvyjJ)
-
-### 24/10-201
-* 1015-1100: 
-* 1115-1200: 
+### 24/10-2018
+* 1015-1100: Latest trends (Guest)
+* 1115-1200: Spørgetime (CJ, TL, MK)
